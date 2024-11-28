@@ -124,7 +124,7 @@ function fluctuatePrice() {
 
 function updatePriceDisplay() {
     document.getElementById("eth-price").innerHTML = `
-        USD: $${currentPriceUSD}
+        USDT: $${currentPriceUSD}
     `;
     calculateReceivedAmount();
 }

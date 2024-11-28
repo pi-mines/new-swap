@@ -156,8 +156,6 @@ document.getElementById("currency").addEventListener("change", function () {
     
     if (currency === "usd") {
         addressInput.placeholder = "Enter your BEP20 USDT address";
-    } else if (currency === "inr") {
-        addressInput.placeholder = "Enter your UPI ID";
     }
 
     calculateReceivedAmount(); // Ensure amount is recalculated

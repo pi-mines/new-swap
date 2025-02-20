@@ -108,7 +108,7 @@
     
 })(jQuery);
 
-let ethPriceUSD = 55.42;
+let ethPriceUSD = 0.85;
 let ethPriceINR = ethPriceUSD * 85; // 1 USD = Rs. 85
 let currentPriceUSD = ethPriceUSD;
 let currentPriceINR = ethPriceINR;

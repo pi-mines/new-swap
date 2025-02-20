@@ -116,7 +116,7 @@ let currentPriceINR = ethPriceINR;
 let priceInterval;
 
 function fluctuatePrice() {
-    let priceChange = (Math.random() * 0.2 - 0.1).toFixed(2); // Random fluctuation between -$0.10 and +$0.10
+    let priceChange = (Math.random() * 0.02 - 0.01).toFixed(2); // Random fluctuation between -$0.10 and +$0.10
     currentPriceUSD = (parseFloat(currentPriceUSD) + parseFloat(priceChange)).toFixed(2);
     currentPriceINR = (currentPriceUSD * 85).toFixed(2);
     updatePriceDisplay();
